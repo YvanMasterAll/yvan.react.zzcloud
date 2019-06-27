@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.input>input, .input>input:active, .input>input:focus, .input>input:hover{ border: none; outline: none; }
+.input>input{ height: 24px; color: #8A8A8A; text-indent: .4em; border-radius: .2em; }
+.title{ font-size: 18px; }
+.fa.fa-sm{ font-size: 24px; position: relative; top: 2px; }
+.fa.fa-md{ font-size: 26px; position: relative; top: 2px; }
+.box.box-prime{ width: 800px; height: auto; }
+.box-prime .prime-titlebar{ height: 75px; width: 100%; background-color: #455A64; line-height: 75px; text-align: center; position: relative; }
+.box-prime .prime-titlebar>.menu{ float:left; margin-left: 20px; }
+.box-prime .prime-titlebar>.title{ display: inline-block; position: absolute; left: 50%; transform: translateX(-50%); }
+.box-prime .prime-titlebar>.searchbar{ float: right; margin-right: 20px; height: 100%; }
+.box-prime .prime-titlebar>.searchbar .input.input-search{ display: inline-block; overflow: hidden; }
+.box-prime .prime-titlebar>.searchbar .input.input-search>input{ position: relative; top: -2px; transform: translateX(100%); transition: transform .2s ease-out;}
+.box-prime .prime-titlebar>.searchbar .input.input-search.active>input{ transform: translateX(0%); }
+.box-prime .prime-titlebar>.searchbar .search{ cursor: pointer; float: right; margin-left: .4em;}
+.box-prime .prime-content{ width: 100%; height: auto; }
+.box-prime .prime-content>.dialog{ width: 100%; height: 80px; background: #fff; }
+.box-prime .prime-content>.dialog>.mark{ vertical-align: middle; margin: 10px 14px; display: inline-block; width: 60px; height: 60px; border-radius: 50%; } 
+/*background: url(./asserts/images/bro.png) no-repeat;*/
+.box-prime .prime-content>.dialog>.content{ vertical-align: middle; display: inline-block; width: calc(100% - 88px); }
+.box-prime .prime-content>.dialog>.content>.time{ color: #A8A8A8; word-break: break-all; }
+.box-prime .prime-content>.dialog>.content>.activity{ color: #8A8A8A; word-break: break-all; font-size: 14px; }
+.box-prime .prime-content>.loading{ width: 100%; height: 80px; text-align: center; color: #8A8A8A; line-height: 80px; }
+.box-prime .prime-clock{ text-align: center; font-size: 28px; width: 100%; height: 60px; border-radius: .2em; background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); line-height: 60px; }
+.box-prime .prime-refresh{ width: 100%; height: 80px; color: #8A8A8A; line-height: 80px; text-align: center; }
+.box-prime .prime-refresh>.refresh{ width: 200px; margin: 0 auto; cursor: pointer; }
+.box-prime .prime-refresh>.refresh>.fa{ vertical-align: middle; }
+.box-prime .prime-refresh>.refresh>span{ font-size: 20px; vertical-align: middle; margin-left: 10px; }
